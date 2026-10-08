@@ -1,4 +1,4 @@
-# Homebrew Tap for Clipback
+# Homebrew Tap for macOS Apps
 
 Homebrew tap for macOS applications by [@nhanchaukp](https://github.com/nhanchaukp).
 
@@ -8,20 +8,23 @@ Add this tap to your Homebrew:
 
 ```bash
 brew tap nhanchaukp/tap
-brew install --cask clipback
 ```
 
-Or install directly:
+Install applications:
 
 ```bash
-brew install --cask nhanchaukp/tap/clipback
+# Clipback
+brew install --cask clipback
+
+# Daily Task
+brew install --cask dailytask
 ```
 
 ## Updating
 
 ```bash
 brew update
-brew upgrade --cask clipback
+brew upgrade --cask dailytask
 ```
 
 ## Available Casks
@@ -29,3 +32,4 @@ brew upgrade --cask clipback
 | Cask | Description | macOS |
 | :--- | :--- | :--- |
 | [`clipback`](Casks/clipback.rb) | Lightweight and powerful clipboard manager for macOS | >= 14.6 (Sonoma) |
+| [`dailytask`](Casks/dailytask.rb) | Lightweight menu bar daily task and todo manager for macOS | >= 14.0 (Sonoma) |
