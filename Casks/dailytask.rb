@@ -1,11 +1,11 @@
 cask "dailytask" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "1.0"
-  sha256 arm:   "6adfe5f5fc5015d33e03a112c919e4fb367b7e6247f1001fd73be753d8d6b2e8",
-         intel: "63e466cf97bb3128e63810fcd146a631d3b8b5f9ee8352b8a6567962943a8ea6"
+  version "1.0.2"
+  sha256 arm:   "8de72961b44597afaa85501f0006e2d6199c96800579f9e61e3635ae2f5fc158",
+         intel: "479efc4fa2c4f29c265c8887e3a0b91b7ad4ad8776c85a8088f8d448c401fc69"
 
-  url "https://github.com/nhanchaukp/dailytask/releases/download/v1.0.0/DailyTask-#{arch}.dmg"
+  url "https://github.com/nhanchaukp/dailytask/releases/download/v1.0.2/DailyTask-#{arch}.dmg"
   name "Daily Task"
   desc "Lightweight menu bar daily task and todo manager for macOS"
   homepage "https://github.com/nhanchaukp/dailytask"
