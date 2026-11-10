@@ -1,9 +1,9 @@
 cask "clipback" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "1.0.6"
-  sha256 arm:   "b420aeab7ca8ddc3452936e61966a8c8c9b990fd71e73f3383cf0d89edc95c87",
-         intel: "51b1f1a25dd03a59c2d49ee2f08f37584c85077b37d6a9ea9255995d736c13d4"
+  version "1.0.7"
+  sha256 arm:   "ec572cdb29f1263dc8e8bd6dc459b06a266e01699596091a05d66c4c82f1f1ed",
+         intel: "9d2d9c033d1d95ec8f51627e2da422b0b9972d7b1d437068e50613750fbc186f"
 
   url "https://github.com/nhanchaukp/Clipback/releases/download/v#{version}/Clipback-#{arch}.dmg"
   name "Clipback"
